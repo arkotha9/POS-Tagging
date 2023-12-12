@@ -1,0 +1,32 @@
+Instructions to run the code:
+
+1. Use Python 3.10.12
+
+2. Install numpy and json libraries.
+
+3. I am running my code inside the verification (working directory) directory whose structure is;
+->verification 
+---->README.txt
+---->hw2_7427344242.py
+---->hw2_report.pdf
+---->data
+------->dev.json
+------->test.json
+------->train.json
+---->out
+------->vocab.txt
+------->hmm.json
+------->greedy.json
+------->viterbi.json
+---->tests
+------->conftest.py
+------->test_vocab.py
+------->test_viterbi.py
+------->test_greedy.py
+---->README
+
+4. The output files (vocab.txt, hmm.json, greedy.json, viterbi.json) are saved into the folder 'out'. To write to files in 'out' folder above, I have used open("out/file_name", "w") using the write 'w' flag.
+
+5. As the working directory is 'verification' and the Python code is in the 'verification' directory, to get the predictions, run my code using the following command.
+ 
+	!python3 hw2_7427344242.py
